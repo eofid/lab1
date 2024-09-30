@@ -4,7 +4,9 @@
 using namespace std;
 
 void AddressBook::addContact() {
-    string name, phone, email;
+    string name;
+    string phone;
+    string email;
     cout << "Введите имя: ";
     cin >> name;
     cout << "Введите телефон: ";
